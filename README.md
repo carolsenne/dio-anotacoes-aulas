@@ -1,2 +1,2 @@
-# dio-anotacoes-aulas
-Anotações para estudo das aulas da DIO
+# Material para Estudo
+Anotações para consulta das aulas referente ao curso da DIO
