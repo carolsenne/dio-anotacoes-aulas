@@ -4,7 +4,7 @@ Comandos para Windows
 - mkdir (criar pasta)
 - del/rmdir 
 
-Unix
+Comandos para Unix
 - cd (pasta)
 - ls (lista)
 - mkdir (criar pasta)
