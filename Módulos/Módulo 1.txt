@@ -11,5 +11,61 @@ Comandos para Unix
 - rm-rf
 
 String = Cadeia de caracteres (Sequência ordenada de  caracteres)
+Git = Sistema de versionamento* de arquivos
+*Versionamento = Metodologia de classificação adotada por programadores com o intuito de controlar e acompanhar o histórico de alterações em um software.
+Staged = Área no qual vai entrar em ação
+
+1- Objeto Blob (Bolha):
+- Só guarda o sha1 do arquivo.
+- Ele contém metadados do git, que são o tipo do objeto, tamanho do arquivo, tamanho da string, etc.
+
+2- Objeto Tree (Árvores):
+- Armazena Blobs.
+- Também contém metadados.
+- Ela monta toda estrutura de onde estão localizados esses arquivos.
+- Pode apontar para outras Árvores.
+
+3- Objeto Commit:
+- Mais importante.
+- É o objeto que vai juntar tudo.
+- Dará sentido para alteração que você está fazendo.
+- Aponta para uma Tree.
+- Aponta para um parente, ou seja, o último Commit realizado antes dele.
+- Aponta para um autor.
+- Aponta para uma mensagem.
+- É único para cada autor.
+
+Git Init -> Além de criar a pasta, inicializa o repertório.
+
+Commit -> Posta as alterações que fiz em meu projeto, mas será alterado no GitHub após eu dar o PUSH.
+$ git commit -m ""
+
+Adiciona todas as modificações do nosso repositório local para Staged:
+$ git add nomearquivo
+$ git add *
+$ git add .
+
+Envia para o servidor:
+$ git push origin main/master
+
+Para clonar o repositório que está no GitHub:
+$ git clone <link>
+
+Ver o status:
+$ git status
+
+Puxar o repertório que está no GitHub:
+$ git pull origin main/master
+
+Quando há conflito (merge), que uma pessoa fez alteração no arquivo e você também fez alteração no mesmo arquivo na sua máquina local: 
+git add *
+git commit -m "resolve conflitos"
+git push origin main/master
+
+
+
+
+
+ 
 
  
