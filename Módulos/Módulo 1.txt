@@ -1,0 +1,15 @@
+## Comandos para Windows
+- cd (pasta)
+- dir (lista)
+- mkdir (criar pasta)
+- del/rmdir 
+
+## Unix
+- cd (pasta)
+- ls (lista)
+- mkdir (criar pasta)
+- rm-rf
+
+**Negrito**String = Cadeia de caracteres (Sequência ordenada de  caracteres)
+
+ 
